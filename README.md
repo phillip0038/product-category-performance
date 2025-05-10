@@ -23,8 +23,17 @@ This project explores product-level sales performance using the Tableau Supersto
 
 ## 📁 Project Structure
 
-<pre lang="markdown"> ``` 06_product-category-performance/ ├── data/ # Cleaned CSV exports from BigQuery │ ├── category_summary.csv │ ├── profit_margin.csv │ └── monthly_trends.csv │ ├── sql/ # Query scripts used for analysis │ ├── 01_category_summary.sql │ ├── 02_profit_margin.sql │ └── 03_monthly_trends.sql │ ├── r/ # R scripts used for plotting │ └── category_trends.R │ ├── plots/ # Output PNG visualizations │ ├── category_revenue_trend.png │ ├── profit_margin_by_category.png │ └── monthly_revenue_trend.png │ └── README.md # Project overview and insights ``` </pre>
-
+| File/Folder                        | Description |
+|-----------------------------------|-------------|
+| `data/category_summary.csv`       | Total revenue and profit by product category |
+| `data/profit_margin.csv`          | Profit margin analysis by category |
+| `data/monthly_trends.csv`         | Monthly revenue trend data |
+| `sql/`                            | SQL scripts for querying sales data in BigQuery |
+| `r/category_trends.R`             | R script to load, visualize, and save trend plots |
+| `plots/category_revenue_trend.png`| Bar chart of total revenue by category |
+| `plots/profit_margin_by_category.png` | Bar chart of profit margin by category |
+| `plots/monthly_revenue_trend.png` | Line chart of revenue trends by month |
+| `README.md`                       | Project overview and summary |
 
 ---
 
